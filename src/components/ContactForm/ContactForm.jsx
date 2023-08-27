@@ -20,7 +20,7 @@ export class ContactForm extends Component {
       name: this.state.name,
       number: this.state.number,
     };
-    console.log(this.props.handleSubmit);
+    // console.log(this.props.handleSubmit);
     this.setState({ name: '', number: '' });
     this.props.handleSubmit(contact);
   };
